@@ -4,3 +4,6 @@
 #include "Modules/ModuleManager.h"
 
 IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, FirstARPG, "FirstARPG" );
+
+DEFINE_LOG_CATEGORY(LogFirstARPG)
+ 

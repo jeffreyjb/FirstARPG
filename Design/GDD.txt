@@ -1,0 +1,29 @@
+First ARPG Game Design Document
+_______________________________
+
+-------
+Concept
+-------
+- ARPG style scene with a top down character
+- Collect loot that enemies drop and save to stash
+- Reach the highest wave possible without dying
+
+-----
+Rules
+-----
+- Enemies spawn in waves when the player is ready
+- Enemies drop loot that you can save between waves
+- Save state to return to a Game
+- Reset progress on death
+- Different abilities 
+- Standard health and mana pool to start
+- STRETCH: Randomly generated zones and/or multiple levels
+
+------------
+Requirements
+------------
+- Static Meshes: Need player, enemies, maybe some landscape or weapons, stash
+- Animation: Player / Enemies (hopefully use built in UE4 anim)
+- Textures: TBD, maybe start with typical castle / dungeon style
+- SFX: Weapon, death, items
+- UI: Main menu, save selection, stash in game, player inventory, dropped item indicators

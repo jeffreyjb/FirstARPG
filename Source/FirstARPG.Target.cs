@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class FirstARPGTarget : TargetRules
 {
-	public FirstARPGTarget( TargetInfo Target) : base(Target)
+	public FirstARPGTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "FirstARPG" } );
+		ExtraModuleNames.Add("FirstARPG");
 	}
 }
